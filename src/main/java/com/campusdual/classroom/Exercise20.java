@@ -26,8 +26,8 @@ public class Exercise20 {
     }
 
     public static void main(String[] args) {
-        List<Person> stringList = getPeopleList();
-        showPeopleDetails(stringList);
+       // List<Person> stringList = getPeopleList();
+        showPeopleDetails(getPeopleList());
 
 
     }
