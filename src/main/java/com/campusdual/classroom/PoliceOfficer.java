@@ -9,6 +9,6 @@ public class PoliceOfficer extends Person {
 		this.squad = squad;
 	}
 	public void getDetails() {
-		System.out.println("Doctor " + name + " " + surname + ", especialista en " + squad.toLowerCase());
+		System.out.println("Doctor " + super.name + " " + super.surname + ", especialista en " + this.squad.toLowerCase());
 	}
 }

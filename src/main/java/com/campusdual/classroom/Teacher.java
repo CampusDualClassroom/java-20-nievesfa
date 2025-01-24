@@ -9,6 +9,6 @@ public class Teacher extends Person {
 		this.area = area;
 	}
 	public void getDetails() {
-		System.out.println("Doctor " + name + " " + surname + ", area " + area.toLowerCase());
+		System.out.println("Doctor " + super.name + " " + super.surname + ", area " + this.area.toLowerCase());
 	}
 }
